@@ -103,7 +103,7 @@ const LandingPage = ({ onUnlock, siteName }: { onUnlock: (pass: string) => Promi
           <Lock size={32} />
         </div>
         <h1 className="text-3xl font-serif font-bold text-pink-dark mb-2">{siteName || 'Pink Moments'}</h1>
-        <p className="text-slate-500 mb-8">这是一片私密的回忆领地，请输入访问密码</p>
+        <p className="text-slate-500 mb-8">这是一片私密的回忆领地，请输入访问密码 密码为：123456</p>
         
         <form onSubmit={handleSubmit} className="space-y-4">
           <div className="relative">
